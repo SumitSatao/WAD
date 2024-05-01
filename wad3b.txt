@@ -1,0 +1,27 @@
+1. creat new folder(mongodb) data subfolder     copy path
+
+2. mongodb program file 7.0-bin in that open cmd
+
+3. mongod --dbpath    (copy the path of data)
+
+4. minimize  => go to mongodb and connect the server
+
+
+
+5. new cmd
+
+6. npm init -y
+
+7. npm install express
+
+8. npm install mongodb
+
+9. new wad -> 3b  copy path 
+
+10. cd copied path of 3b
+
+11. node index.js
+
+12. copy the site and then put in the postman 
+
+13. go to mongodb and college and it

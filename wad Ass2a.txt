@@ -1,0 +1,67 @@
+satao@Sumit MINGW64 ~
+$ cd "C:\Users\satao\OneDrive\Desktop\New folder (2)"
+
+satao@Sumit MINGW64 ~/OneDrive/Desktop/New folder (2) (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/satao/OneDrive/Desktop/New folder (2)/.git/
+
+satao@Sumit MINGW64 ~/OneDrive/Desktop/New folder (2) (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+satao@Sumit MINGW64 ~/OneDrive/Desktop/New folder (2) (main)
+$ git add .
+
+satao@Sumit MINGW64 ~/OneDrive/Desktop/New folder (2) (main)
+$ git commit -m "second commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+satao@Sumit MINGW64 ~/OneDrive/Desktop/New folder (2) (main)
+$ git add .
+
+satao@Sumit MINGW64 ~/OneDrive/Desktop/New folder (2) (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Ass 4 cc.txt
+
+
+satao@Sumit MINGW64 ~/OneDrive/Desktop/New folder (2) (main)
+$ git add .
+
+satao@Sumit MINGW64 ~/OneDrive/Desktop/New folder (2) (main)
+$ git commit -m "first commit"
+[main a8f8fad] first commit
+ 1 file changed, 34 insertions(+)
+ create mode 100644 Ass 4 cc.txt
+
+satao@Sumit MINGW64 ~/OneDrive/Desktop/New folder (2) (main)
+$ git branch -M main
+
+satao@Sumit MINGW64 ~/OneDrive/Desktop/New folder (2) (main)
+$ git remote add origin https://github.com/SumitSatao/Ass2a.git
+error: remote origin already exists.
+
+satao@Sumit MINGW64 ~/OneDrive/Desktop/New folder (2) (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 570 bytes | 570.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/SumitSatao/Ass2a.git
+   45c5f2c..a8f8fad  main -> main
+branch 'main' set up to track 'origin/main'.
+
+satao@Sumit MINGW64 ~/OneDrive/Desktop/New folder (2) (main)
+$
